@@ -1,0 +1,19 @@
+.formato1:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.fondoEscaners {
+  background-color: darkgray;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}

@@ -1,0 +1,49 @@
+.footer {
+  background: linear-gradient(90deg, #b30000, #8a0000); /* Rojo navideño */
+  color: #fffbe6; /* Dorado claro */
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.i-footer {
+  margin-right: 6px;
+  padding-right: 15px;
+  font-size: 30px;
+  color: #fffbe6; /* Dorado */
+  transition: 0.3s ease;
+}
+
+.i-footer:hover {
+  color: #ffffff; /* Blanco brillante */
+}
+
+.footer-direccion {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-enlace {
+  padding-left: 5px;
+  color: #fffbe6; /* Dorado */
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.footer-enlace:hover {
+  color: #ffffff; /* Blanco brillante */
+}
+
+.icon-direccion {
+  font-size: 30px;
+  color: #fffbe6; /* Dorado */
+}
+
+.footer-titulo {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff; /* Blanco para destacar */
+}
+
+.f1 {
+  background-color: #730000; /* Rojo más oscuro */
+}

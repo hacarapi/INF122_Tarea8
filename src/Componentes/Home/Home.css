@@ -1,0 +1,36 @@
+.img-home {
+  transition: all 0.8s ease 0s;
+  margin: 10px 0 10px 0;
+}
+
+.fondo {
+  background-color: rgb(220, 220, 229); /* fondo neutro */
+}
+
+/* Hover animado de las imágenes */
+.img-home:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px #ec731e; /* color cálido */
+  -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  cursor: pointer;
+}
+
+/* Enlace de los productos */
+.enlace {
+  color: #c1121f; /* rojo navideño */
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  font-size: 1.3rem; /* tamaño de letra aumentado */
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Hover del nombre del producto */
+.enlace:hover {
+  color: #ffd700; /* dorado navideño */
+}
